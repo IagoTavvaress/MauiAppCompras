@@ -2,7 +2,7 @@
 
 namespace MauiAppCompras.Models
 {
-    class Produto
+    public class Produto
     {
         [PrimaryKey, AutoIncrement]
        public int Id { get; set; }
