@@ -1,4 +1,4 @@
-using MauiAppCompras.Models;
+﻿using MauiAppMinhasCompras.Models;
 using System.Collections.ObjectModel;
 
 namespace MauiAppCompras.Views;
@@ -50,7 +50,7 @@ public partial class ListaProduto : ContentPage
     {
 		double soma = lista.Sum(i => i.Total);
 
-		string msg = $"O total � {soma:C}";
+		string msg = $"O total é {soma:C}";
 
 		DisplayAlert("Total dos Produtos", msg, "OK");
     }

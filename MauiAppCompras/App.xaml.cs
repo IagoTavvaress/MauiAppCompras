@@ -1,4 +1,4 @@
-﻿using MauiAppCompras.Helpers;
+﻿using MauiAppMinhasCompras.Helpers;
 
 namespace MauiAppCompras
 {
